@@ -14,7 +14,7 @@ print("Data cleaning is done@@@@@@")
 encode_data(cleaned_data,"Location")
 encode_data(cleaned_data,"RainToday")
 encode_data(cleaned_data,"RainTomorrow")
-print("Data encoding is done @@@@@@")
+print("Data encoding is done")
 
 X_train, X_test, y_train, y_test = split_data(cleaned_data)
 print("Data Spliting is done @@@@@@")
